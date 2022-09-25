@@ -1,0 +1,324 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+  ol, ul {
+    list-style: none;
+}
+  
+  img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.header {
+ background-image: url(images/Rec.jpg);
+ height: vh;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.header-logo {
+  position: absolute;
+  height: 780px;
+  font-weight: 1280px;
+}
+
+.logo {
+  position: absolute;
+width: 167.33px;
+height: 125.5px;
+left: 75px;
+top: 36px;
+
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 35px;
+  
+  position: absolute;
+  width: 22px;
+  height: 181.94px;
+  left: 70px;
+  top: 299px;
+}
+
+.header-subtitle {
+  position: absolute;
+  width: 302px;
+  height: 57px;
+  left: 170px;
+  top: 171px;
+
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 57px;
+  color: #FFFFFF;
+}
+
+.header-description {
+  position: absolute;
+width: 488px;
+height: 38px;
+left: 134px;
+top: 246px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.buy {
+  position: absolute;
+width: 160px;
+height: 19px;
+left: 134px;
+top: 331px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+
+
+color: #FFFFFF;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: absolute;
+  width: 117px;
+  height: 137px;
+  left: 134px;
+  top: 361px;
+}
+
+.header-img-wrapper {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 117px;
+height: 137px;
+left: 266px;
+top: 361px;
+}
+
+.header-img {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 117px;
+height: 137px;
+left: 398px;
+top: 361px;
+}
+
+.header-price {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 117px;
+height: 137px;
+left: 530px;
+top: 361px;
+}
+
+.price {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 117px;
+height: 137px;
+left: 662px;
+top: 361px;
+}
+
+.header-buy {
+  position: absolute;
+width: 335px;
+height: 34px;
+left: 134px;
+top: 511px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+}
+
+.link {
+  box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 20px;
+gap: 10px;
+
+position: absolute;
+width: 160px;
+height: 45px;
+left: 134px;
+top: 593px;
+
+border: 2px solid #FFFFFF;
+border-radius: 50px;
+
+}
+
+.link:hover {
+  background-color: #39eb7d;
+}
+
+.link-buy {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header-link {
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 50px;
+gap: 15px;
+
+position: absolute;
+width: 645px;
+height: 39px;
+left: 364px;
+top: 30px;
+}
+
+
+
+.wrapper-link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+.subtitle {
+  box-sizing: border-box;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 20px;
+gap: 10px;
+
+position: absolute;
+width: 188px;
+height: 45px;
+left: 1034px;
+top: 70px;
+
+border: 2px solid #FFFFFF;
+border-radius: 50px;
+}
+
+.subtitle:hover {
+  background-color: #39eb7d;
+}
+
+.subtitle-link {
+  width: 87px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+
+color: #FFFFFF;
+text-decoration: none;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.price-img {
+  position: absolute;
+width: 166.32px;
+height: 307px;
+left: 847px;
+top: 315px;
+}
+
+.price-link {
+  position: absolute;
+width: 469.56px;
+height: 316.52px;
+left: 883px;
+top: 142.56px;
+
+}
+
+.price-buy {
+  position: absolute;
+width: 752px;
+height: 87px;
+left: 448px;
+top: 567px;
+}
+
+.price-subtitle {
+  position: absolute;
+  width: 470px;
+  height: 419px;
+  left: 833px;
+  top: 40.14px;
+}
