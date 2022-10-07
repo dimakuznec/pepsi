@@ -45,11 +45,10 @@ body {
 
 .logo {
   position: absolute;
-width: 167.33px;
-height: 125.5px;
-left: 75px;
-top: 36px;
-
+  width: 167.33px;
+  height: 125.5px;
+  left: 75px;
+ top: 36px;
 }
 
 .cart {
@@ -83,36 +82,36 @@ top: 36px;
 
 .header-description {
   position: absolute;
-width: 488px;
-height: 38px;
-left: 134px;
-top: 246px;
+  width: 488px;
+  height: 38px;
+  left: 134px;
+  top: 246px;
 
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 19px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+ line-height: 19px;
 
-color: #FFFFFF;
+ color: #FFFFFF;
 }
 
 .buy {
   position: absolute;
-width: 160px;
-height: 19px;
-left: 134px;
-top: 331px;
+ width: 160px;
+ height: 19px;
+ left: 134px;
+ top: 331px;
 
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
+ font-family: 'Rubik';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 19px;
 
 
 
-color: #FFFFFF;
+ color: #FFFFFF;
 }
 
 .header-title {
@@ -130,90 +129,90 @@ color: #FFFFFF;
 
 .header-img-wrapper {
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 0px;
 
-position: absolute;
-width: 117px;
-height: 137px;
-left: 266px;
-top: 361px;
+ position: absolute;
+ width: 117px;
+ height: 137px;
+ left: 266px;
+ top: 361px;
 }
 
 .header-img {
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 0px;
 
-position: absolute;
-width: 117px;
-height: 137px;
-left: 398px;
-top: 361px;
+ position: absolute;
+ width: 117px;
+ height: 137px;
+ left: 398px;
+ top: 361px;
 }
 
 .header-price {
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 0px;
 
-position: absolute;
-width: 117px;
-height: 137px;
-left: 530px;
-top: 361px;
+ position: absolute;
+ width: 117px;
+ height: 137px;
+ left: 530px;
+ top: 361px;
 }
 
 .price {
   display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 0px;
 
-position: absolute;
-width: 117px;
-height: 137px;
-left: 662px;
-top: 361px;
+ position: absolute;
+ width: 117px;
+ height: 137px;
+ left: 662px;
+ top: 361px;
 }
 
 .header-buy {
   position: absolute;
-width: 335px;
-height: 34px;
-left: 134px;
-top: 511px;
+ width: 335px;
+ height: 34px;
+ left: 134px;
+ top: 511px;
 
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 17px;
+ font-family: 'Rubik';
+ font-style: normal;
+ font-weight: 300;
+ font-size: 14px;
+ line-height: 17px;
 
-color: #FFFFFF;
+ color: #FFFFFF;
 }
 
 .link {
   box-sizing: border-box;
 
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 15px 20px;
-gap: 10px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ padding: 15px 20px;
+ gap: 10px;
 
-position: absolute;
-width: 160px;
-height: 45px;
-left: 134px;
-top: 593px;
+ position: absolute;
+ width: 160px;
+ height: 45px;
+ left: 134px;
+ top: 593px;
 
-border: 2px solid #FFFFFF;
-border-radius: 50px;
+ border: 2px solid #FFFFFF;
+ border-radius: 50px;
 
 }
 
@@ -228,16 +227,16 @@ border-radius: 50px;
 
 .header-link {
   display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 50px;
-gap: 15px;
+ flex-direction: row;
+ align-items: flex-start;
+  padding: 50px;
+ gap: 15px;
 
-position: absolute;
-width: 645px;
-height: 39px;
-left: 364px;
-top: 30px;
+ position: absolute;
+ width: 645px;
+ height: 39px;
+ left: 364px;
+ top: 30px;
 }
 
 
@@ -251,21 +250,21 @@ top: 30px;
 .subtitle {
   box-sizing: border-box;
 
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 15px 20px;
-gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+  gap: 10px;
 
-position: absolute;
-width: 188px;
-height: 45px;
-left: 1034px;
-top: 70px;
+  position: absolute;
+  width: 188px;
+  height: 45px;
+  left: 1034px;
+  top: 70px;
 
-border: 2px solid #FFFFFF;
-border-radius: 50px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50px;
 }
 
 .subtitle:hover {
@@ -274,45 +273,45 @@ border-radius: 50px;
 
 .subtitle-link {
   width: 87px;
-height: 15px;
+ height: 15px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 15px;
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 12px;
+ line-height: 15px;
 
-color: #FFFFFF;
-text-decoration: none;
+ color: #FFFFFF;
+ text-decoration: none;
 
-flex: none;
-order: 0;
-flex-grow: 0;
+ flex: none;
+ order: 0;
+ flex-grow: 0;
 }
 
 .price-img {
   position: absolute;
-width: 166.32px;
-height: 307px;
-left: 847px;
-top: 315px;
+ width: 166.32px;
+ height: 307px;
+ left: 847px;
+ top: 315px;
 }
 
 .price-link {
   position: absolute;
-width: 469.56px;
-height: 316.52px;
-left: 883px;
-top: 142.56px;
+ width: 469.56px;
+ height: 316.52px;
+ left: 883px;
+ top: 142.56px;
 
 }
 
 .price-buy {
   position: absolute;
-width: 752px;
-height: 87px;
-left: 448px;
-top: 567px;
+ width: 752px;
+ height: 87px;
+ left: 448px;
+ top: 567px;
 }
 
 .price-subtitle {
